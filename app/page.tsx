@@ -1,22 +1,22 @@
 // app/page.tsx
 
-import TerminalHero from './components/TerminalHero';
-import FloatingNav from './components/FloatingNav';
-import TopNav from './components/TopNav';
-import KeyNav from './components/KeyNav';
-import AboutSection from './components/AboutSection';
-import AboutSection1 from './components/AboutSection1';
-import TerminalAboutMe from './components/TerminalAboutMe';
-import TimelineAboutMe from './components/TimelineAboutMe';
-import AboutCard from './components/AboutCard';
-import ChatAboutMe from './components/ChatAboutMe';
-import ProjectsGalaxy from './components/ProjectsGalaxy';
-import ExperienceTower from './components/ExperienceTower';
-import TechOrbit from './components/TechOrbit';
-import RocketLaunchPad from './components/RocketLaunchPad';
-import DNASpiral from './components/DNASpiral';
-import TechFloatingSkills from './components/TechFloatingSkills';
-import SkillShield from './components/SkillShield';
+import TerminalHero from "./components/TerminalHero";
+import FloatingNav from "./components/FloatingNav";
+import TopNav from "./components/TopNav";
+import KeyNav from "./components/KeyNav";
+import TerminalAboutMe from "./components/TerminalAboutMe";
+// import AboutSection from './components/AboutSection';
+// import AboutSection1 from './components/AboutSection1';
+// import TimelineAboutMe from './components/TimelineAboutMe';
+// import AboutCard from './components/AboutCard';
+// import ChatAboutMe from './components/ChatAboutMe';
+// import ProjectsGalaxy from './components/ProjectsGalaxy';
+// import ExperienceTower from './components/ExperienceTower';
+// import TechOrbit from './components/TechOrbit';
+// import RocketLaunchPad from './components/RocketLaunchPad';
+// import DNASpiral from './components/DNASpiral';
+// import TechFloatingSkills from './components/TechFloatingSkills';
+// import SkillShield from './components/SkillShield';
 // import MindMapWeb from './components/MindMapWeb';
 import ContactSection from './components/ContactSection';
 
