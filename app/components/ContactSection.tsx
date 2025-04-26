@@ -41,7 +41,7 @@ export default function ContactSection() {
       className="min-h-screen w-full bg-gradient-to-b from-black via-gray-900 to-black flex flex-col items-center justify-center p-6 md:p-20 overflow-hidden"
     >
       <h2 className="text-3xl md:text-5xl font-bold text-green-400 mb-12">
-        Connect With Me 📡
+       {" Connect With Me 📡"}
       </h2>
 
       {/* Terminal Box */}
@@ -55,7 +55,7 @@ export default function ContactSection() {
           transition={{ delay: 0.2 }}
         >
           <label htmlFor="name" className="text-xs">
-            > Enter your name:
+           {" > Enter your name:"}
           </label>
           <input
             type="text"
@@ -75,7 +75,7 @@ export default function ContactSection() {
           transition={{ delay: 0.4 }}
         >
           <label htmlFor="email" className="text-xs">
-            > Enter your email:
+            {"> Enter your email:"}
           </label>
           <input
             type="email"
@@ -95,7 +95,7 @@ export default function ContactSection() {
           transition={{ delay: 0.6 }}
         >
           <label htmlFor="message" className="text-xs">
-            > Your message:
+            {"> Your message:"}
           </label>
           <textarea
             id="message"
@@ -122,11 +122,11 @@ export default function ContactSection() {
         {/* Status Messages */}
         {status === 'sent' && (
           <p className="text-green-400 mt-4">
-            > Message Delivered Successfully ✅
+            {"> Message Delivered Successfully ✅"}
           </p>
         )}
         {status === 'error' && (
-          <p className="text-red-400 mt-4">> Error sending message ❌</p>
+          <p className="text-red-400 mt-4">{"> Error sending message ❌"}</p>
         )}
       </form>
     </section>
