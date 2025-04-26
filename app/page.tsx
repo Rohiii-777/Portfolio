@@ -18,7 +18,7 @@ import TerminalAboutMe from "./components/TerminalAboutMe";
 // import TechFloatingSkills from './components/TechFloatingSkills';
 // import SkillShield from './components/SkillShield';
 // import MindMapWeb from './components/MindMapWeb';
-import ContactSection from './components/ContactSection';
+// import ContactSection from './components/ContactSection';
 
 export const metadata = {
   title: "Rohit Saundarmal | Full Stack Developer Portfolio",
@@ -26,11 +26,11 @@ export const metadata = {
   openGraph: {
     title: "Rohit Saundarmal | Full Stack Developer",
     description: "Explore my professional journey, projects, and technical skills. Let's connect!",
-    url: "https://your-final-vercel-url.vercel.app/",
+    url: "https://rohit-saundarmal.vercel.app/",
     siteName: "Rohit's Portfolio",
     images: [
       {
-        url: "/og-image.png", // Make sure this file exists in /public
+        url: "/og-image.png", 
         width: 1200,
         height: 630,
         alt: "Rohit Saundarmal Portfolio",
