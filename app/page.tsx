@@ -50,8 +50,8 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="relative">
-      <TopNav />
-      {/* <TerminalHero /> */}
+      {/* <TopNav /> */}
+      <TerminalHero />
       {/* <FloatingNav /> */}
       {/* <KeyNav /> */}
       {/* <AboutSection /> */}
