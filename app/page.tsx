@@ -21,32 +21,29 @@ import TerminalAboutMe from "./components/TerminalAboutMe";
 import ContactSection from './components/ContactSection';
 
 export const metadata = {
-  title: 'Rohit Saundarmal | Full Stack Developer Portfolio',
-  description:
-    "Official portfolio of Rohit Saundarmal, a dedicated Full Stack Developer skilled in React.js, Laravel, Flask, and more. Let's build something great together!",
+  title: "Rohit Saundarmal | Full Stack Developer Portfolio",
+  description: "Official portfolio of Rohit Saundarmal, a dedicated Full Stack Developer skilled in React.js, Laravel, Flask, and more. Let's build something great together!",
   openGraph: {
-    title: 'Rohit Saundarmal | Full Stack Developer',
-    description:
-      "Explore my professional journey, projects, and technical skills. Let's connect!",
-    url: 'https://your-final-vercel-url.vercel.app/',
+    title: "Rohit Saundarmal | Full Stack Developer",
+    description: "Explore my professional journey, projects, and technical skills. Let's connect!",
+    url: "https://your-final-vercel-url.vercel.app/",
     siteName: "Rohit's Portfolio",
     images: [
       {
-        url: '/og-image.png', // create this image inside /public folder
+        url: "/og-image.png", // Make sure this file exists in /public
         width: 1200,
         height: 630,
-        alt: 'Rohit Saundarmal Portfolio',
+        alt: "Rohit Saundarmal Portfolio",
       },
     ],
-    locale: 'en_US',
-    type: 'website',
+    locale: "en_US",
+    type: "website",
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Rohit Saundarmal | Full Stack Developer',
-    description:
-      'Building impactful applications with a passion for backend and systems.',
-    images: ['/og-image.png'],
+    card: "summary_large_image",
+    title: "Rohit Saundarmal | Full Stack Developer",
+    description: "Building impactful applications with a passion for backend and systems.",
+    images: ["/og-image.png"],
   },
 };
 
@@ -66,12 +63,11 @@ export default function Home() {
       {/* <ProjectsGalaxy /> */}
       {/* <ExperienceTower /> */}
       {/* <TechFloatingSkills /> */}
-      <ContactSection />
       {/* <SkillShield /> */}
       {/* <MindMapWeb /> */}
       {/* <TechOrbit /> */}
       {/* <RocketLaunchPad /> */}
-      {/* Next: Projects section */}
+      <ContactSection />
     </main>
   );
 }
