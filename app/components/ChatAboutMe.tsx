@@ -30,7 +30,7 @@ export default function ChatAboutMe() {
       className="min-h-screen w-full bg-black flex flex-col items-center justify-center p-6 md:p-20"
     >
       <h2 className="text-3xl md:text-5xl font-bold text-green-400 mb-12">
-        Let's Chat 📱
+        {"Let's Chat 📱"}
       </h2>
 
       <div className="w-full max-w-lg bg-gray-800 rounded-2xl p-6 shadow-2xl space-y-4">

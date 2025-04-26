@@ -18,26 +18,26 @@ export default function AboutCard() {
         >
           {/* Front Side */}
           <div className="absolute w-full h-full bg-gradient-to-br from-green-400 to-blue-600 text-black rounded-2xl p-6 flex flex-col justify-center items-center backface-hidden shadow-xl">
-            <h2 className="text-3xl font-bold mb-4">Rohit Saundarmal</h2>
+            <h2 className="text-3xl font-bold mb-4">{"Rohit Saundarmal"}</h2>
             <p className="text-center font-semibold">
-              Full-Stack Developer | API Specialist | Problem Solver
+              {"Full-Stack Developer | API Specialist | Problem Solver"}
             </p>
           </div>
 
           {/* Back Side */}
           <div className="absolute w-full h-full bg-black text-green-400 rounded-2xl p-6 flex flex-col justify-center items-center rotate-y-180 backface-hidden shadow-xl">
-            <h3 className="text-2xl font-bold mb-2">Skills</h3>
+            <h3 className="text-2xl font-bold mb-2">{"Skills"}</h3>
             <p className="text-center text-sm mb-4">
-              React.js, Laravel, Flask, MongoDB, Docker, AWS
+             {" React.js, Laravel, Flask, MongoDB, Docker, AWS"}
             </p>
 
-            <h3 className="text-2xl font-bold mb-2">Education</h3>
+            <h3 className="text-2xl font-bold mb-2">{"Education"}</h3>
             <p className="text-center text-sm mb-4">
-              BSc Computer Science, Pune
+             {" BSc Computer Science, Pune"}
             </p>
 
-            <h3 className="text-2xl font-bold mb-2">Motto</h3>
-            <p className="italic text-center text-sm">"Build. Solve. Grow."</p>
+            <h3 className="text-2xl font-bold mb-2">{"Motto"}</h3>
+            <p className="italic text-center text-sm">{"Build. Solve. Grow."}</p>
           </div>
         </motion.div>
       </div>
