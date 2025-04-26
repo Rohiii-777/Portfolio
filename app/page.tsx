@@ -51,12 +51,12 @@ export default function Home() {
   return (
     <main className="relative">
       <TopNav />
-      <TerminalHero />
-      <FloatingNav />
-      <KeyNav />
+      {/* <TerminalHero /> */}
+      {/* <FloatingNav /> */}
+      {/* <KeyNav /> */}
       {/* <AboutSection /> */}
       {/* <AboutSection1 /> */}
-      <TerminalAboutMe />
+      {/* <TerminalAboutMe /> */}
       {/* <TimelineAboutMe />
       <AboutCard />
       <ChatAboutMe /> */}
@@ -67,7 +67,7 @@ export default function Home() {
       {/* <MindMapWeb /> */}
       {/* <TechOrbit /> */}
       {/* <RocketLaunchPad /> */}
-      <ContactSection />
+      {/* <ContactSection /> */}
     </main>
   );
 }
